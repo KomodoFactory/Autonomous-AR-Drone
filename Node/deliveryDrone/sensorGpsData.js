@@ -13,13 +13,14 @@ client.takeoff();
 
 client.on('navdata', function (d) {
     if (d.gps) {
-        console.log("Coordinates: ");
-        console.log(d.gps.latitude + ', ' + d.gps.longitude);
+        console.log("Coordinates: " + d.gps.latitude + ', ' + d.gps.longitude + ', ' + navdata.gps.elevation);
+        console.log("Satelites: " + navdata.gps.nbSatellites);
+        console.log("Error: " + d.gps.pdop + ', ' + d.gps.hdop + ', ' + d.gps.vdop)
     } else {
         console.log('no GPS');
     }
 })
-    .after(10000, function () {
+    .after(20000, function () {
         console.log('end of the line');
         this.land();
     });
