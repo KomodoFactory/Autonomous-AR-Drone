@@ -22,7 +22,7 @@ var server = http.createServer(function(req, res){
 		res.end('Did not receive any png data yet.');
 		return;
 	}
-	
+
 	res.writeHead(200, {'Content-Type': 'image/png'});
 	res.end(lastPng);
 });
