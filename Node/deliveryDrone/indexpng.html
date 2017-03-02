@@ -13,23 +13,29 @@
             color: #fff;
             font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
         }
+
         #map, #droneStream {
             width: 50%;
             height: 400px;
             float: left;
         }
+
         #droneStream canvas {
             width: 100%;
             height: 400px;
         }
+
         #data, #controls {
             width: 50%;
             float: left;
         }
+
         .section {
-            width: 33%;
+            width: 25%;
             float: left;
+            padding-bottom: 10px;
         }
+
         .section button {
             padding: 5px;
             background: #fff;
@@ -37,9 +43,11 @@
             min-width: 100px;
             cursor: pointer;
         }
+
         .section button:active {
             background: #7FF2F6;
         }
+
         .log {
             clear: both;
             display: none;
@@ -47,12 +55,13 @@
     </style>
 
     <link rel="stylesheet" href="/leaflet.css"/>
-
 </head>
 
 <body>
 <div id="map"></div>
-<div id='droneStream'></div>
+<div id='pngStream'>
+    <canvas id=""></canvas>
+</div>
 
 <div id='controls'>
     <div class='section'>
@@ -73,6 +82,8 @@
         <button id='search'>Start Search</button>
         <br/>
         <button id='track'>Track Picture</button>
+        <br/>
+        <button id='save'>Save Picture</button>
     </div>
     <div class='section'>
         <button id='emergency' style="background-color: red; margin-top: 25px">Emergency Stop</button>
@@ -98,8 +109,8 @@
 <script src="leaflet-google.js"></script>
 <script src="jquery.js"></script>
 
-<script src="/dronestream/nodecopter-client.js"></script>
 <script src="/socket.io/socket.io.js"></script>
+<script src="tracking/build/tracking-min.js"></script>
 
 
 <script>
@@ -109,21 +120,30 @@
     var waypointMarkers = [];
     var activeWaypoints = [];
     var waypoints = [];
+
     var laptopIcon = L.icon({
         iconUrl: 'images/laptop.png'
     });
+
     var droneIcon = L.icon({
         iconUrl: 'images/copter.png'
     });
-    new NodecopterStream(document.getElementById("droneStream"));
+
+    //new NodecopterStream(document.getElementById("droneStream"));
+
     navigator.geolocation.getCurrentPosition(initMap, defaultMap, {enableHighAccuracy: true});
+
     function initMap(position) {
         lat = position.coords.latitude;
         lon = position.coords.longitude;
+
         map = L.map('map').setView([lat, lon], 20);
+
         var googleLayer = new L.Google('SATELLITE');
         map.addLayer(googleLayer);
+
         laptop = L.marker([lat, lon], {icon: laptopIcon}).addTo(map)
+
         map.on('click', function (e) {
             waypointMarkers.push(L.marker(e.latlng).addTo(map))
             waypoints.push([e.latlng.lat, e.latlng.lng])
@@ -134,11 +154,13 @@
             }
         });
     }
+
     function defaultMap(err) {
         console.log(err)
         //create a default position on map if no gps given
         initMap({coords: {latitude: 51, longitude: 2}})
     }
+
     function clearWaypoints() {
         waypoints = []
         map.removeLayer(waypointPath)
@@ -147,16 +169,19 @@
             map.removeLayer(m)
         })
     }
+
     function setCurrentTarget(lat, lon) {
         targetLat = lat
         targetLon = lon
         socket.emit('go', {lat: targetLat, lon: targetLon})
     }
+
     function clearCurrentTarget() {
         targetLat = undefined
         targetLon = undefined
         socket.emit('stop')
     }
+
     $(function () {
         $('#takeoff').click(function () {
             socket.emit('takeoff')
@@ -189,7 +214,12 @@
             clearCurrentTarget()
             socket.emit('emergency')
         })
+        $('#save').click(function(){
+            socket.emit('FuckMe')
+        })
+
     })
+
     socket.on('connect', function () {
         socket.on('waypointReached', function (data) {
             activeWaypoints.shift()
@@ -198,6 +228,7 @@
                 setCurrentTarget(activeWaypoints[0][0], activeWaypoints[0][1])
             }
         })
+
         socket.on('drone', function (data) {
             if (data.lat != undefined) {
                 if (drone == null) {
@@ -213,7 +244,74 @@
                 $('#drone-position .distance').text(data.distance)
             }
         })
+
+
+        /*
+        socket.on('FuckMe', function () {
+            window.addEventListener("load", draw, false);
+
+            function draw()
+            {
+                console.log('blabla', (document.getElementById("droneStream")));
+                console.log('child', document.getElementById("droneStream").childNodes);
+                console.log('canvas', document.getElementById("droneStream").childNodes[0]);
+                var canvas = document.getElementById("droneStream").childNodes[0];
+                if (canvas != null) {
+
+
+                    //var canvas = document.getElementById("mycanvas");
+                    var img = canvas.toDataURL("image/png");
+                    console.log(canvas)
+                    console.log(img)
+
+                    document.body.appendChild(canvas);
+
+                    img = img.replace(/^data:image\/(png|jpg);base64,/, "")
+
+                    canvas.save
+                    /*
+
+                     var frameCounter = 0;
+                     var fs = require('fs');
+
+                     frameCounter++;
+                     console.log('Saving frame');
+                     fs.writeFile('testdata/frame' + frameCounter + '.png', img, function (err) {
+                     if (err) {
+                     console.log('Error saving PNG: ' + err);
+                     }
+                     });
+                }
+            }
+
+        }) */
     })
+
+
+    /*
+     var dronetreamCanvas = $('#droneStreamCanvas');
+     var context = droneStreamCanvas.getContext('2d');
+
+     socket.on('png', function () {
+     var image = new Image();
+     image.src = 'testdata/frame.png';
+     context.clearRect(0,0, droneStreamCanvas.width, droneStreamCanvas.height)
+     context.drawImage(image, 0, 0, droneStreamCanvas.width, droneStreamCanvas.height)
+     })
+     })
+
+     var tracker = new tracking.ColorTracker(['yellow']);
+     tracker.setMinDimension(5);
+
+     tracking.track($('#droneStreamCanvas'), tracker);
+
+     tracker.on('track', function(event) {
+     socket.emit('da');
+     });
+
+     initGUIControllers(tracker);
+     */
+
 </script>
 </body>
 </html>

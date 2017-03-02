@@ -8,26 +8,27 @@ console.log('Connecting png stream...');
 
 client.config('video:video_channel', FRONT);
 
-var pngStream = client.get.getPngStream();
+var pngStream = client.getPngStream();
 
 var lastPng;
-pngStream.on('error', console.log).on('data', function(pngBuffer){
-	lastPng = pngBuffer;
-	console.log(pngBuffer[100]);
+pngStream
+    .on('error', console.log)
+    .on('data', function (pngBuffer) {
+        lastPng = pngBuffer;
+    });
+
+var server = http.createServer(function (req, res) {
+    if (!lastPng) {
+        res.writeHead(503);
+        res.end('Did not receive any png data yet.');
+        return;
+    }
+
+    res.writeHead(200, {'Content-Type': 'image/png'});
+    res.end(lastPng);
 });
 
-var server = http.createServer(function(req, res){
-	if(!lastPng){
-		res.writeHead(503);
-		res.end('Did not receive any png data yet.');
-		return;
-	}
-
-	res.writeHead(200, {'Content-Type': 'image/png'});
-	res.end(lastPng);
-});
-
-server.listen(8080,function(){
-	console.log('Serving latest png on port 8080...');
+server.listen(8080, function () {
+    console.log('Serving latest png on port 8080...');
 });
 
