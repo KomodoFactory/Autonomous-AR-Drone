@@ -1,4 +1,6 @@
 // from https://github.com/eschnou/ardrone-autonomy/blob/401d7c920af34457a1ebf88e82004c517f5d6a24/lib/PID.js
+//Dont forget to creddit them!!
+
 module.exports = PID;
 function PID(kp, ki, kd) {
     this.configure(kp, ki, kd);

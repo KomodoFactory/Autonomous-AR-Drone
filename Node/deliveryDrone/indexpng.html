@@ -13,27 +13,22 @@
             color: #fff;
             font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
         }
-
-        #map, #droneStream {
-            width: 50%;
+        #pngStream {
+            width: 100%;
             height: 400px;
             float: left;
         }
-
-        #droneStream canvas {
+        #pngStreamCanvas {
             width: 100%;
             height: 400px;
         }
-
         #data, #controls {
             width: 50%;
             float: left;
         }
-
         .section {
-            width: 25%;
+            width: 33%;
             float: left;
-            padding-bottom: 10px;
         }
 
         .section button {
@@ -43,24 +38,16 @@
             min-width: 100px;
             cursor: pointer;
         }
-
         .section button:active {
             background: #7FF2F6;
         }
 
-        .log {
-            clear: both;
-            display: none;
-        }
     </style>
-
-    <link rel="stylesheet" href="/leaflet.css"/>
 </head>
 
 <body>
-<div id="map"></div>
 <div id='pngStream'>
-    <canvas id=""></canvas>
+    <canvas id="pngStreamCanvas"></canvas>
 </div>
 
 <div id='controls'>
@@ -72,104 +59,33 @@
         <button id='reset'>Reset</button>
     </div>
     <div class='section'>
-        <button id='go'>Go to waypoint</button>
-        <br/>
-        <button id='home'>Return Home</button>
-        <br/>
-        <button id='clear'>Clear Route</button>
-    </div>
-    <div class='section'>
         <button id='search'>Start Search</button>
         <br/>
         <button id='track'>Track Picture</button>
         <br/>
         <button id='save'>Save Picture</button>
     </div>
-    <div class='section'>
-        <button id='emergency' style="background-color: red; margin-top: 25px">Emergency Stop</button>
-    </div>
 
 
 </div>
 <div id='data'>
     <div id="drone-position">
-        GPS:
-        <span class='lat'>0</span>,
-        <span class='lon'>0</span>
-        <br/>Distance?:
-        <span class='distance'>0</span>m
-        <br/>Battery:
+       <br/>Battery:
         <span class='battery'>0</span>%
     </div>
-    <pre class="log">no data</pre>
 </div>
 
-<script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
-<script src="leaflet.js"></script>
-<script src="leaflet-google.js"></script>
 <script src="jquery.js"></script>
-
 <script src="/socket.io/socket.io.js"></script>
 <script src="tracking/build/tracking-min.js"></script>
 
 
 <script>
     var socket = io.connect('/');
-    var lat, lon, map, laptop, drone, waypointPath, dronePath, startPosition;
-    var targetLat, targetLon;
-    var waypointMarkers = [];
-    var activeWaypoints = [];
-    var waypoints = [];
+    var lat, lon, drone;
 
-    var laptopIcon = L.icon({
-        iconUrl: 'images/laptop.png'
-    });
 
-    var droneIcon = L.icon({
-        iconUrl: 'images/copter.png'
-    });
-
-    new NodecopterStream(document.getElementById("droneStream"));
-
-    navigator.geolocation.getCurrentPosition(initMap, defaultMap, {enableHighAccuracy: true});
-
-    function initMap(position) {
-        lat = position.coords.latitude;
-        lon = position.coords.longitude;
-
-        map = L.map('map').setView([lat, lon], 20);
-
-        var googleLayer = new L.Google('SATELLITE');
-        map.addLayer(googleLayer);
-
-        laptop = L.marker([lat, lon], {icon: laptopIcon}).addTo(map)
-
-        map.on('click', function (e) {
-            waypointMarkers.push(L.marker(e.latlng).addTo(map))
-            waypoints.push([e.latlng.lat, e.latlng.lng])
-            if (waypointPath == undefined) {
-                waypointPath = L.polyline(waypoints, {color: 'blue'}).addTo(map);
-            } else {
-                waypointPath.setLatLngs(waypoints)
-            }
-        });
-    }
-
-    function defaultMap(err) {
-        console.log(err)
-        //create a default position on map if no gps given
-        initMap({coords: {latitude: 51, longitude: 2}})
-    }
-
-    function clearWaypoints() {
-        waypoints = []
-        map.removeLayer(waypointPath)
-        waypointPath = undefined
-        $.each(waypointMarkers, function (i, m) {
-            map.removeLayer(m)
-        })
-    }
-
+    //might be usefull to keep
     function setCurrentTarget(lat, lon) {
         targetLat = lat
         targetLon = lon
@@ -185,34 +101,12 @@
     $(function () {
         $('#takeoff').click(function () {
             socket.emit('takeoff')
-            if (drone != null) {
-                startPosition = [drone._latlng.lat, drone._latlng.lng]
-            }
         })
         $('#land').click(function () {
             socket.emit('land')
-            startPosition = []
         })
         $('#reset').click(function () {
             socket.emit('reset')
-        })
-        $('#clear').click(function () {
-            clearWaypoints()
-        })
-        $('#home').click(function () {
-            activeWaypoints = [startPosition[0], startPosition[1]]
-            setCurrentTarget(startPosition[0], startPosition[1])
-        })
-        $('#go').click(function () {
-            if (waypoints.length > 0) {
-                activeWaypoints = waypoints.slice(0);
-                // go to next waypoint
-                setCurrentTarget(activeWaypoints[0][0], activeWaypoints[0][1])
-            }
-        })
-        $('#emergency').click(function () {
-            clearCurrentTarget()
-            socket.emit('emergency')
         })
         $('#save').click(function(){
             socket.emit('FuckMe')
@@ -222,26 +116,12 @@
 
     socket.on('connect', function () {
         socket.on('waypointReached', function (data) {
-            activeWaypoints.shift()
-            if (activeWaypoints.length > 0) {
-                // go to next waypoint
-                setCurrentTarget(activeWaypoints[0][0], activeWaypoints[0][1])
-            }
+           socket.emit('Waypoint?')
         })
 
         socket.on('drone', function (data) {
-            if (data.lat != undefined) {
-                if (drone == null) {
-                    drone = L.marker([data.lat, data.lon], {icon: droneIcon}).addTo(map)
-                    dronePath = L.polyline([[data.lat, data.lon]], {color: 'green'}).addTo(map);
-                } else {
-                    drone.setLatLng([data.lat, data.lon])
-                    dronePath.addLatLng([data.lat, data.lon])
-                }
+            if (data.battery != undefined) {
                 $('#drone-position .battery').text(data.battery)
-                $('#drone-position .lat').text(data.lat)
-                $('#drone-position .lon').text(data.lon)
-                $('#drone-position .distance').text(data.distance)
             }
         })
 

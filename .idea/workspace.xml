@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755fd59d-7766-40bf-a832-afeffa966f5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.aux" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.aux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.pdf" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.synctex.gz" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.synctex.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.tex" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" afterPath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib.bak" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.bbl" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.bbl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.blg" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.blg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lof" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lof" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.log" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lot" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.out" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.toc" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/WhereDidISteal.txt" afterPath="$PROJECT_DIR$/Node/WhereDidISteal.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/index.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/PngStreamer.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet-google.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/PID.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/PID.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/README.md" afterPath="$PROJECT_DIR$/Node/deliveryDrone/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/server.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,33 +34,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/index.html">
+      <file leaf-file-name="indexPNG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexpng.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexpng.html">
+      <file leaf-file-name="serverGPS.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverGPS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="279">
+              <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/server.js">
+      <file leaf-file-name="indexForTrackingTest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="342">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serverTracking.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -83,8 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fuck</find>
-      <find>drones</find>
       <find>dronest</find>
       <find>drone</find>
       <find>socket</find>
@@ -112,6 +113,8 @@
       <find>cyaw</find>
       <find>dronestream</find>
       <find>stop</find>
+      <find>map</find>
+      <find>log</find>
       <find>pid</find>
     </findStrings>
   </component>
@@ -140,10 +143,14 @@
         <option value="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/plugins/video-png/public/js/index.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/config.js" />
-        <option value="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/server.js" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/README.md" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/PID.js" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" />
       </list>
     </option>
   </component>
@@ -155,7 +162,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Node/node_modules" />
-    <handled-path value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -331,34 +337,52 @@
       <workItem from="1488533828680" duration="12984000" />
       <workItem from="1490017499944" duration="1807000" />
       <workItem from="1490087858093" duration="4499000" />
-      <workItem from="1490446193075" duration="12000" />
+      <workItem from="1490446193075" duration="2210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75847000" />
+    <option name="totallyTimeSpent" value="78045000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10590095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10590095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -378,10 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/public/images/copter.png" />
-    <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/public/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/index.html" />
-    <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/server.js" />
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/video.js" />
     <entry file="file://$PROJECT_DIR$/Node/node_modules/npm/node_modules/init-package-json/node_modules/promzard/promzard.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -489,20 +509,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverPNG.js" />
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/PID.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -510,28 +516,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/index.html">
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        <state relative-caret-position="-272">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexpng.html">
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/PID.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverGPS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>

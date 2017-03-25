@@ -1,15 +1,12 @@
 # AR Drone GPS
 
-Dashboard for controlling a Nodecopter using the Flight Recorder GPS addon
-
-![Screenshot](http://i.imgur.com/7xgQOD9.png)
+I hate every moment I work on this.
+But I am getting somewhere. so that is good.
 
 ## Features
 
-* Waypoint Route
-* Return Home
 * Video Stream
 
 ## Copyright
 
-Copyright (c) 2013 Andrew Nesbitt. See [LICENSE](https://github.com/andrew/ar-drone-gps/blob/master/LICENSE) for details.
+Copyright (c) 2017 Dominik Rose.
