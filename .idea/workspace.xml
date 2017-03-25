@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755fd59d-7766-40bf-a832-afeffa966f5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/PngStreamer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet-google.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/leaflet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/PID.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/PID.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/README.md" afterPath="$PROJECT_DIR$/Node/deliveryDrone/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -151,6 +137,7 @@
         <option value="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -337,15 +324,15 @@
       <workItem from="1488533828680" duration="12984000" />
       <workItem from="1490017499944" duration="1807000" />
       <workItem from="1490087858093" duration="4499000" />
-      <workItem from="1490446193075" duration="2210000" />
+      <workItem from="1490446193075" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78045000" />
+    <option name="totallyTimeSpent" value="78645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10590095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -402,7 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/video.js" />
     <entry file="file://$PROJECT_DIR$/Node/node_modules/npm/node_modules/init-package-json/node_modules/promzard/promzard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1694">
@@ -524,14 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/PID.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -578,6 +556,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
