@@ -33,28 +33,25 @@ io.sockets.on('connection', function (socket) {
         console.log('takeoff', data)
         client.takeoff()
     })
-
-    socket.on('emergency', function (data) {
-        console.log('Holy Shit!!', data)
-        client.stop()
-        client.land()
-    })
-
     socket.on('land', function (data) {
         console.log('land', data)
+        client.stop()
         client.land()
     })
     socket.on('reset', function (data) {
         console.log('reset', data)
         client.disableEmergency()
     })
+    socket.on('go', function (data) {
+        targetLat = data.lat
+        targetLon = data.lon
+    })
 
     setInterval(function () {
-        io.sockets.emit('drone', {
+        io.sockets.emit('navData', {
             lat: currentLat,
             lon: currentLon,
             yaw: currentYaw,
-            distance: currentDistance,
             battery: battery
         })
     }, 1000)
@@ -81,35 +78,45 @@ var stop = function () {
 }
 
 var handleNavData = function (data) {
-    if (data.demo == null || data.gps == null) return;
+    if (data.demo == null || data.gps == null){
+		return;
+	}
     battery = data.demo.batteryPercentage
     currentLat = data.gps.latitude
     currentLon = data.gps.longitude
-
     currentYaw = data.demo.rotation.yaw;
 
-    if (targetLat == null || targetLon == null || currentYaw == null || currentLat == null || currentLon == null) return;
+    if (targetLat == null || targetLon == null || currentYaw == null || currentLat == null || currentLon == null){
+		return;
+		}
 
     var bearing = vincenty.distVincenty(currentLat, currentLon, targetLat, targetLon)
 
     if (bearing.distance > 1) {
         currentDistance = bearing.distance
-        console.log('distance', bearing.distance)
-        console.log('bearing:', bearing.initialBearing)
         targetYaw = bearing.initialBearing
 
-        console.log('currentYaw:', currentYaw);
         var eyaw = targetYaw - currentYaw;
-        console.log('eyaw:', eyaw);
-
         var uyaw = yawPID.getCommand(eyaw);
-        console.log('uyaw:', uyaw);
-
         var cyaw = within(uyaw, -1, 1);
-        console.log('cyaw:', cyaw);
+        /*
+         console.log('distance', bearing.distance)
+         console.log('bearing:', bearing.initialBearing)
+         console.log('currentYaw:', currentYaw);
 
-        client.clockwise(cyaw)
-        client.front(0.05)
+         console.log('eyaw:', eyaw);
+         console.log('uyaw:', uyaw);
+         console.log('cyaw:', cyaw);
+         */
+
+
+
+
+        client.clockwise(0.2)
+        if (cyaw < 0.4 && cyaw > -0.4) {
+            console.log("This never happens")
+            client.front(0.8)
+        }
     } else {
         targetYaw = null
         io.sockets.emit('waypointReached', {lat: targetLat, lon: targetLon})

@@ -13,7 +13,7 @@
             color: #fff;
             font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
         }
-        #map, #droneStream {
+        #droneStream {
             width: 50%;
             height: 400px;
             float: left;
@@ -45,13 +45,9 @@
             display: none;
         }
     </style>
-
-    <link rel="stylesheet" href="/leaflet.css"/>
-
 </head>
 
 <body>
-<div id="map"></div>
 <div id='droneStream'></div>
 
 <div id='controls'>
@@ -70,12 +66,7 @@
         <button id='clear'>Clear Route</button>
     </div>
     <div class='section'>
-        <button id='search'>Start Search</button>
-        <br/>
-        <button id='track'>Track Picture</button>
-    </div>
-    <div class='section'>
-        <button id='emergency' style="background-color: red; margin-top: 25px">Emergency Stop</button>
+        <button id='default'>Default Route</button>
     </div>
 
 
@@ -85,8 +76,6 @@
         GPS:
         <span class='lat'>0</span>,
         <span class='lon'>0</span>
-        <br/>Distance?:
-        <span class='distance'>0</span>m
         <br/>Battery:
         <span class='battery'>0</span>%
     </div>
@@ -104,48 +93,39 @@
 
 <script>
     var socket = io.connect('/');
-    var lat, lon, map, laptop, drone, waypointPath, dronePath, startPosition;
+    var lat, lon, drone, startPosition;
     var targetLat, targetLon;
     var waypointMarkers = [];
     var activeWaypoints = [];
     var waypoints = [];
-    var laptopIcon = L.icon({
-        iconUrl: 'images/laptop.png'
-    });
-    var droneIcon = L.icon({
-        iconUrl: 'images/copter.png'
-    });
+
     new NodecopterStream(document.getElementById("droneStream"));
-    navigator.geolocation.getCurrentPosition(initMap, defaultMap, {enableHighAccuracy: true});
-    function initMap(position) {
-        lat = position.coords.latitude;
-        lon = position.coords.longitude;
-        map = L.map('map').setView([lat, lon], 20);
-        var googleLayer = new L.Google('SATELLITE');
-        map.addLayer(googleLayer);
-        laptop = L.marker([lat, lon], {icon: laptopIcon}).addTo(map)
-        map.on('click', function (e) {
-            waypointMarkers.push(L.marker(e.latlng).addTo(map))
-            waypoints.push([e.latlng.lat, e.latlng.lng])
-            if (waypointPath == undefined) {
-                waypointPath = L.polyline(waypoints, {color: 'blue'}).addTo(map);
-            } else {
-                waypointPath.setLatLngs(waypoints)
-            }
-        });
-    }
-    function defaultMap(err) {
-        console.log(err)
-        //create a default position on map if no gps given
-        initMap({coords: {latitude: 51, longitude: 2}})
-    }
+
     function clearWaypoints() {
         waypoints = []
-        map.removeLayer(waypointPath)
-        waypointPath = undefined
         $.each(waypointMarkers, function (i, m) {
             map.removeLayer(m)
         })
+    }
+    function createDefaultRoute(){
+        waypoints = []
+        /*
+        waypointMarkers.push(L.marker([49.777475, 9.963085]).addTo(map))
+        waypointMarkers.push(L.marker([49.777473, 9.962906]).addTo(map))
+        waypointMarkers.push(L.marker([49.777371, 9.962909]).addTo(map))
+        waypointMarkers.push(L.marker([49.777375, 9.963098]).addTo(map))
+        */
+        waypoints.push([49.777427, 9.963131])
+        waypoints.push([49.777462, 9.963133])
+
+        waypoints.push([49.777427, 9.963131])
+        waypoints.push([49.777462, 9.963133])
+
+        waypoints.push([49.777427, 9.963131])
+        waypoints.push([49.777462, 9.963133])
+
+        waypoints.push([49.777427, 9.963131])
+        waypoints.push([49.777462, 9.963133])
     }
     function setCurrentTarget(lat, lon) {
         targetLat = lat
@@ -165,8 +145,9 @@
             }
         })
         $('#land').click(function () {
-            socket.emit('land')
+            clearCurrentTarget()
             startPosition = []
+            socket.emit('land')
         })
         $('#reset').click(function () {
             socket.emit('reset')
@@ -185,32 +166,24 @@
                 setCurrentTarget(activeWaypoints[0][0], activeWaypoints[0][1])
             }
         })
-        $('#emergency').click(function () {
-            clearCurrentTarget()
-            socket.emit('emergency')
+        $('#default').click(function(){
+            createDefaultRoute();
         })
     })
     socket.on('connect', function () {
         socket.on('waypointReached', function (data) {
             activeWaypoints.shift()
+            console.log("waypoint reached" + data);
             if (activeWaypoints.length > 0) {
                 // go to next waypoint
                 setCurrentTarget(activeWaypoints[0][0], activeWaypoints[0][1])
             }
         })
-        socket.on('drone', function (data) {
-            if (data.lat != undefined) {
-                if (drone == null) {
-                    drone = L.marker([data.lat, data.lon], {icon: droneIcon}).addTo(map)
-                    dronePath = L.polyline([[data.lat, data.lon]], {color: 'green'}).addTo(map);
-                } else {
-                    drone.setLatLng([data.lat, data.lon])
-                    dronePath.addLatLng([data.lat, data.lon])
-                }
+        socket.on('navData', function (data) {
+            if (data.lat != undefined && data != null) {
                 $('#drone-position .battery').text(data.battery)
                 $('#drone-position .lat').text(data.lat)
                 $('#drone-position .lon').text(data.lon)
-                $('#drone-position .distance').text(data.distance)
             }
         })
     })

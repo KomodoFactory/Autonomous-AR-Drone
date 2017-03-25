@@ -2,108 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755fd59d-7766-40bf-a832-afeffa966f5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/Test/html2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/Test/psmove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/Test/psmove2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/assets/opencv_haarcascade_converter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/assets/opencv_haarcascade_eye.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/assets/opencv_haarcascade_frontalface_alt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/assets/opencv_haarcascade_mouth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/assets/opencv_haarcascade_upper_body.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/eye-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/eye.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/face-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/face.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/mouth-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/data/mouth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/tracking-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/build/tracking.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/book1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/book2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/box1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/box2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/brief1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/brief2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/color_camera_gui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/draw_frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/faces.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/FishTankRenderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/nx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/ny.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/nz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/fish_tank/pz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/minions.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/minions.ogv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/psmove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/splines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/assets/stats.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/brief.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/brief_camera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/color_camera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/color_draw_something.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/color_fish_tank.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/color_hello_world.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/color_video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/face_camera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/face_fish_tank.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/face_hello_world.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/face_tag_friends.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/fast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/examples/fast_camera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/detection/ViolaJones.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/detection/training/haar/eye.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/detection/training/haar/face.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/detection/training/haar/mouth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/features/Brief.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/features/Fast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/math/Math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/math/Matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/pose/EPnP.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/trackers/ColorTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/trackers/ObjectTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/trackers/Tracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/trackers/TrackerTask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/tracking.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/utils/Canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/utils/DisjointSet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/utils/EventEmitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/src/utils/Image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/Benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/Brief.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/ColorTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/Fast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/ObjectTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/assets/box1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/assets/box2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/assets/faces.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/assets/psmove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/perf/Brief.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/perf/ColorTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/perf/Fast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/perf/ObjectTracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/utils/benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/tracking.js-master/test/utils/sandbox.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.aux" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.pdf" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.synctex.gz" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.synctex.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.tex" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" afterPath="$PROJECT_DIR$/Node/testDrone/ardrone-webflight" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib.bak" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib.bib.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.bbl" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.bbl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.blg" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.blg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lof" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lof" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.log" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lot" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.lot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.out" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.toc" afterPath="$PROJECT_DIR$/Documents/Bachelorthesis/ba_vorlage.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/WhereDidISteal.txt" afterPath="$PROJECT_DIR$/Node/WhereDidISteal.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/index.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/server.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/node_modules/dronestream/dist/nodecopter-client.js" afterPath="$PROJECT_DIR$/Node/node_modules/dronestream/dist/nodecopter-client.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,11 +42,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="218" column="7" lean-forward="false" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2193">
+              <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,8 +52,8 @@
       <file leaf-file-name="indexpng.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexpng.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4046">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -148,8 +64,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="1683">
+              <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -167,29 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gamepad</find>
-      <find>gps</find>
-      <find>console</find>
-      <find>control</find>
-      <find>connect</find>
-      <find>land</find>
-      <find>follow</find>
-      <find>navdata</find>
-      <find>distance</find>
-      <find>frame</find>
-      <find>clear</find>
-      <find>nodecopterst</find>
-      <find>err</find>
-      <find>nodepng</find>
-      <find>require</find>
-      <find>client</find>
-      <find>dronestream</find>
-      <find>'drone</find>
-      <find>pictu</find>
-      <find>log</find>
-      <find>image</find>
-      <find>leaf</find>
-      <find>leaflet</find>
       <find>fuck</find>
       <find>drones</find>
       <find>dronest</find>
@@ -197,6 +90,29 @@
       <find>socket</find>
       <find>stream</find>
       <find>fuckme</find>
+      <find>emer</find>
+      <find>emergen</find>
+      <find>land</find>
+      <find>emerg</find>
+      <find>targetlat</find>
+      <find>nav</find>
+      <find>lat</find>
+      <find>.lat</find>
+      <find>go</find>
+      <find>yaw</find>
+      <find>waypointreached</find>
+      <find>takeoff</find>
+      <find>waypoint</find>
+      <find>d</find>
+      <find>front</find>
+      <find>defaul</find>
+      <find>waypointre</find>
+      <find>way</find>
+      <find>wayp</find>
+      <find>cyaw</find>
+      <find>dronestream</find>
+      <find>stop</find>
+      <find>pid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,8 +140,9 @@
         <option value="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/plugins/video-png/public/js/index.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/config.js" />
-        <option value="$PROJECT_DIR$/Node/deliveryDrone/server.js" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/server.js" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
       </list>
     </option>
@@ -238,12 +155,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Node/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1552" />
-    <option name="height" value="840" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -260,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,6 +225,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,32 +328,36 @@
       <workItem from="1488369318414" duration="1383000" />
       <workItem from="1488370842583" duration="19438000" />
       <workItem from="1488443405028" duration="8519000" />
+      <workItem from="1488533828680" duration="12984000" />
+      <workItem from="1490017499944" duration="1807000" />
+      <workItem from="1490087858093" duration="4499000" />
+      <workItem from="1490446193075" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56545000" />
+    <option name="totallyTimeSpent" value="75847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1552" height="840" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.167107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10590095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,8 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Outdated/node_modules/ar-drone/lib/video/RawStream.js" />
-    <entry file="file://$PROJECT_DIR$/Outdated/node_modules/ar-drone/lib/video/TcpVideoStream.js" />
     <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/public/images/copter.png" />
     <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/public/jquery.js" />
     <entry file="file://$PROJECT_DIR$/GPSDRONE/ar-drone-gps/index.html" />
@@ -530,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,47 +485,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1488448190597" expanded="true" signature="29814:29845" ph="..." />
-            <marker date="1488448190597" expanded="true" signature="34801:34811" ph="..." />
-            <marker date="1488448190597" expanded="true" signature="34922:34953" ph="..." />
-            <marker date="1488448190597" expanded="true" signature="228727:228820" ph="..." />
-            <marker date="1488448190597" expanded="true" signature="228853:228946" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverPNG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverPNG.js" />
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/PID.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="218" column="7" lean-forward="false" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="2193">
+          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexpng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4046">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="527">
+          <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -619,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="25" />
           <folding />
         </state>
       </provider>
