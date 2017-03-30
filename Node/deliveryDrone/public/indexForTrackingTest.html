@@ -24,7 +24,7 @@
 
 <div class="demo-frame">
     <div class="demo-container">
-        <img id="img" src="testdata/frame.png"/>
+        <img id="img" src="testdata/psmove.png"/>
     </div>
     <button onclick="calculate()">Reload</button>
 </div>
@@ -36,7 +36,10 @@
             var demoContainer = document.querySelector('.demo-container');
             var tracker = new tracking.ColorTracker(['cyan']);
             tracker.on('track', function (event) {
+
                 event.data.forEach(function (rect) {
+
+                    console.log(rect);
                     window.plot(rect.x, rect.y, rect.width, rect.height, rect.color);
                 });
             });
