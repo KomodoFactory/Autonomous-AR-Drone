@@ -13,19 +13,23 @@
             color: #fff;
             font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
         }
+
         #pngStream {
-            width: 100%;
-            height: 400px;
+            height: 640px;
+            width: 640px;
             float: left;
         }
+
         #pngStreamCanvas {
-            width: 100%;
-            height: 400px;
+            height: 640px;
+            width: 640px;
         }
+
         #data, #controls {
             width: 50%;
             float: left;
         }
+
         .section {
             width: 33%;
             float: left;
@@ -38,6 +42,7 @@
             min-width: 100px;
             cursor: pointer;
         }
+
         .section button:active {
             background: #7FF2F6;
         }
@@ -47,7 +52,7 @@
 
 <body>
 <div id='pngStream'>
-    <canvas id="pngStreamCanvas"></canvas>
+    <canvas id="pngStreamCanvas" width=640 height=640></canvas>
 </div>
 
 <div id='controls'>
@@ -68,7 +73,7 @@
 </div>
 <div id='data'>
     <div id="drone-position">
-       <br/>Battery:
+        <br/>Battery:
         <span class='battery'>0</span>%
     </div>
 </div>
@@ -80,21 +85,10 @@
 
 <script>
     var socket = io.connect('/');
-    var lat, lon, drone;
+    var canvas = document.getElementById('pngStreamCanvas');
+    var context = canvas.getContext("2d");
+    var img = new Image();
 
-
-    //might be usefull to keep
-    function setCurrentTarget(lat, lon) {
-        targetLat = lat
-        targetLon = lon
-        socket.emit('go', {lat: targetLat, lon: targetLon})
-    }
-
-    function clearCurrentTarget() {
-        targetLat = undefined
-        targetLon = undefined
-        socket.emit('stop')
-    }
 
     $(function () {
         $('#takeoff').click(function () {
@@ -106,90 +100,56 @@
         $('#reset').click(function () {
             socket.emit('reset')
         })
-        $('#save').click(function(){
+        $('#save').click(function () {
             socket.emit('FuckMe')
         })
 
     })
 
     socket.on('connect', function () {
-        socket.on('waypointReached', function (data) {
-           socket.emit('Waypoint?')
-        })
-
         socket.on('drone', function (data) {
             if (data.battery != undefined) {
                 $('#drone-position .battery').text(data.battery)
             }
         })
 
+        socket.on('frameReceived', function (data) {
+            img.src = "frame/frame" + data + ".png";
 
-        /*
-        socket.on('FuckMe', function () {
-            window.addEventListener("load", draw, false);
-
-            function draw()
-            {
-                console.log('blabla', (document.getElementById("droneStream")));
-                console.log('child', document.getElementById("droneStream").childNodes);
-                console.log('canvas', document.getElementById("droneStream").childNodes[0]);
-                var canvas = document.getElementById("droneStream").childNodes[0];
-                if (canvas != null) {
-
-
-                    //var canvas = document.getElementById("mycanvas");
-                    var img = canvas.toDataURL("image/png");
-                    console.log(canvas)
-                    console.log(img)
-
-                    document.body.appendChild(canvas);
-
-                    img = img.replace(/^data:image\/(png|jpg);base64,/, "")
-
-                    canvas.save
-                    /*
-
-                     var frameCounter = 0;
-                     var fs = require('fs');
-
-                     frameCounter++;
-                     console.log('Saving frame');
-                     fs.writeFile('testdata/frame' + frameCounter + '.png', img, function (err) {
-                     if (err) {
-                     console.log('Error saving PNG: ' + err);
-                     }
-                     });
-                }
+            img.onload = function () {
+                context.save();
+                context.clearRect(0, 0, canvas.width, canvas.height);
+                context.globalAlpha = 1;
+                context.drawImage(img, 0, 0);
+                calculate(img);
             }
+        })
 
-        }) */
+        function calculate(img) {
+            var tracker = new tracking.ColorTracker(['cyan']);
+            tracker.on('track', function (event) {
+
+                event.data.forEach(function (rect) {
+
+                    console.log(rect);
+                    window.plot(rect.x, rect.y, rect.width, rect.height, rect.color);
+                });
+            });
+            tracking.track('#img', tracker);
+        }
+
+
+        window.plot = function (x, y, w, h, color) {
+            var rect = document.createElement('div');
+            document.getElementById('pngStream').appendChild(rect);
+            rect.classList.add('rect');
+            rect.style.border = '2px solid ' + color;
+            rect.style.width = w + 'px';
+            rect.style.height = h + 'px';
+            rect.style.left = (img.offsetLeft + x) + 'px';
+            rect.style.top = (img.offsetTop + y) + 'px';
+        };
     })
-
-
-    /*
-     var dronetreamCanvas = $('#droneStreamCanvas');
-     var context = droneStreamCanvas.getContext('2d');
-
-     socket.on('png', function () {
-     var image = new Image();
-     image.src = 'testdata/frame.png';
-     context.clearRect(0,0, droneStreamCanvas.width, droneStreamCanvas.height)
-     context.drawImage(image, 0, 0, droneStreamCanvas.width, droneStreamCanvas.height)
-     })
-     })
-
-     var tracker = new tracking.ColorTracker(['yellow']);
-     tracker.setMinDimension(5);
-
-     tracking.track($('#droneStreamCanvas'), tracker);
-
-     tracker.on('track', function(event) {
-     socket.emit('da');
-     });
-
-     initGUIControllers(tracker);
-     */
-
 </script>
 </body>
 </html>
