@@ -125,8 +125,14 @@
             }
         })
 
+
         function calculate(img) {
-            var tracker = new tracking.ColorTracker(['cyan']);
+            var tracker = new tracking.ColorTracker.registerColor('magenta', function(r, g, b) {
+                if (r < 200 && r > 140 && g < 100 && g > 150 && b < 110 && b > 180) {
+                    return true;
+                }
+                return false;
+            });
             tracker.on('track', function (event) {
 
                 event.data.forEach(function (rect) {

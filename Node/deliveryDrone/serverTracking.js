@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
     //put in the real wesbsite
-    res.sendfile(__dirname + '/indexPNG.html');
+    res.sendfile(__dirname + '/public/indexForTrackingTest.html');
 });
 
 server.listen(8080);
@@ -55,7 +55,7 @@ var number = 0;
 
 var pngStream = client.getPngStream();
 
-client.config('video:video_channel', 0);
+client.config('video:video_channel', 3);
 client.config('general:navdata_demo', 'FALSE');
 
 var battery = 0;

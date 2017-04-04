@@ -2,48 +2,332 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755fd59d-7766-40bf-a832-afeffa966f5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/Figures/WebclientMarker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/ARDroneDeveloperGuide.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/AmazonAirspace.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/AmazonAirspace2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/DHLDrohne.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/DPDDrohne.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/Dicitionary.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/DiplomarbeitChristianSeiwald.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/EmergencyDrone.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/GNSSvsGPS.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/GPSHystorie.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/GPSSendData.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/LandingDrone.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/Merkblatt_BA.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/PrecisePointPositingPaper.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/WaypointNavigationDrone.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/PDFs/senseandavoide.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib2.bib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib2.bib.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib2.bib.sav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib3.bib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib3.bib.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/actualBib3.bib.sav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Bachelorthesis/bachelorarbeit.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/KompetenzradDomi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/MemosSchreiben.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Websites.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/WorkingConditions.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/Zuerledigen.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Documents/abstractMemos2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/WhereDidISteal.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/PngStreamer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/frame1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/sensorAltitudeData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/sensorData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/sensorGpsData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/frame.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/frame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame0.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame1.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame10.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame100.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame101.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame101.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame102.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame102.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame103.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame103.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame104.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame104.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame105.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame105.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame106.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame106.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame107.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame107.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame108.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame108.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame109.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame109.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame11.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame110.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame110.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame111.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame111.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame112.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame112.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame113.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame113.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame114.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame114.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame115.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame115.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame116.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame116.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame117.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame117.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame118.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame118.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame119.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame119.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame12.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame120.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame120.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame121.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame121.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame122.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame122.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame123.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame123.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame124.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame124.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame125.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame125.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame126.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame126.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame127.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame127.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame128.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame129.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame129.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame13.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame130.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame130.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame131.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame131.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame132.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame132.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame133.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame133.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame134.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame134.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame135.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame135.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame136.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame136.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame137.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame137.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame138.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame138.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame139.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame139.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame14.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame140.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame140.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame141.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame141.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame142.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame142.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame143.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame143.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame144.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame145.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame145.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame146.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame146.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame147.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame147.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame148.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame148.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame149.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame149.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame15.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame150.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame150.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame151.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame151.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame152.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame152.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame153.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame153.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame154.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame154.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame155.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame155.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame156.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame156.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame157.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame157.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame158.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame158.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame159.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame159.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame16.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame160.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame160.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame161.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame161.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame162.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame162.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame163.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame163.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame164.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame164.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame165.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame165.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame166.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame166.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame167.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame167.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame168.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame168.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame169.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame169.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame17.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame170.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame170.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame171.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame171.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame172.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame172.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame173.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame173.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame174.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame174.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame175.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame175.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame176.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame176.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame177.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame177.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame178.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame178.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame179.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame179.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame18.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame18.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame180.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame180.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame181.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame181.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame182.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame182.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame183.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame183.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame184.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame184.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame185.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame185.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame186.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame186.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame187.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame187.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame188.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame188.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame189.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame189.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame19.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame19.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame190.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame190.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame191.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame191.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame192.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame192.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame193.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame193.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame194.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame194.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame195.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame195.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame196.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame196.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame197.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame197.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame198.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame198.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame199.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame199.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame2.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame20.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame20.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame200.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame200.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame201.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame201.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame202.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame202.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame203.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame203.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame204.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame204.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame205.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame205.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame206.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame206.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame207.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame207.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame208.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame208.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame209.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame209.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame21.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame21.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame210.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame210.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame211.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame211.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame212.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame212.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame213.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame213.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame214.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame214.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame215.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame215.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame216.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame216.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame217.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame217.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame218.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame218.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame219.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame219.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame22.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame220.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame220.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame221.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame221.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame222.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame222.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame223.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame223.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame224.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame224.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame225.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame225.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame226.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame226.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame227.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame227.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame228.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame228.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame229.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame229.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame23.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame23.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame230.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame230.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame231.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame231.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame232.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame232.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame233.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame233.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame234.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame234.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame235.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame235.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame236.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame236.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame237.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame237.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame238.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame238.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame239.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame239.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame24.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame240.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame241.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame241.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame242.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame242.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame243.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame243.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame244.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame244.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame245.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame245.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame246.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame246.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame247.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame247.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame248.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame248.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame249.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame249.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame25.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame25.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame250.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame250.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame251.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame251.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame252.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame252.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame253.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame253.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame254.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame254.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame255.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame255.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame256.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame257.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame257.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame258.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame258.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame259.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame259.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame26.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame26.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame260.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame260.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame261.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame261.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame262.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame262.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame263.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame263.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame264.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame264.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame265.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame265.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame266.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame266.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame267.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame267.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame268.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame268.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame269.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame269.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame27.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame270.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame270.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame271.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame271.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame272.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame272.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame273.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame273.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame274.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame274.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame275.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame275.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame276.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame276.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame277.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame277.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame278.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame278.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame279.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame279.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame28.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame28.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame280.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame280.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame281.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame281.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame282.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame282.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame283.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame283.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame284.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame284.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame285.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame285.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame286.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame286.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame287.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame287.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame288.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame288.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame289.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame289.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame29.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame29.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame290.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame290.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame291.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame291.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame292.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame292.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame293.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame293.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame294.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame294.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame295.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame295.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame296.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame296.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame297.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame297.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame298.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame298.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame299.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame299.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame3.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame30.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame30.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame300.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame300.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame301.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame301.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame302.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame302.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame303.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame303.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame304.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame304.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame305.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame305.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame306.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame306.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame307.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame307.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame308.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame308.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame309.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame309.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame31.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame31.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame310.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame310.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame311.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame311.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame312.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame312.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame313.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame313.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame314.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame314.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame315.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame315.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame316.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame316.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame317.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame317.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame318.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame318.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame319.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame319.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame32.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame320.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame321.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame321.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame33.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame34.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame34.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame35.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame35.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame36.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame37.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame37.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame38.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame39.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame39.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame4.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame40.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame41.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame41.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame42.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame42.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame43.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame43.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame44.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame44.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame45.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame45.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame46.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame46.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame47.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame47.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame48.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame49.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame49.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame5.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame50.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame51.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame51.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame52.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame52.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame53.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame53.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame54.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame54.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame55.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame55.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame56.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame56.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame57.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame58.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame58.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame59.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame59.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame6.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame60.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame61.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame61.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame62.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame62.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame63.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame63.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame64.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame64.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame65.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame65.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame66.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame66.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame67.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame67.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame68.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame68.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame69.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame69.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame7.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame70.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame70.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame71.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame71.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame72.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame73.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame73.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame74.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame74.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame75.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame75.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame76.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame77.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame77.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame78.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame78.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame79.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame79.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame8.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame80.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame80.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame81.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame81.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame82.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame82.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame83.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame83.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame84.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame84.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame85.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame85.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame86.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame86.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame87.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame87.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame88.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame88.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame89.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame89.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame9.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame90.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame90.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame91.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame91.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame92.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame92.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame93.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame93.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame94.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame94.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame95.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame95.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame96.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame97.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame97.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame98.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame98.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame99.png" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/frame/frame99.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/AbstractMemos.txt" afterPath="$PROJECT_DIR$/Documents/AbstractMemos.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" afterPath="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" afterPath="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,11 +346,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="indexPNG.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="indexPNG.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="128" column="58" lean-forward="false" selection-start-line="128" selection-start-column="58" selection-end-line="128" selection-end-column="58" />
+            <state relative-caret-position="578">
+              <caret line="144" column="9" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="144" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -75,18 +359,28 @@
       <file leaf-file-name="serverTracking.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexForTrackingTest.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexForTrackingTest.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="71" />
+            <state relative-caret-position="170">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="778">
+              <caret line="62" column="6" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="62" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -97,8 +391,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -157,7 +451,6 @@
         <option value="$PROJECT_DIR$/Node/deliveryDrone/GPSDRONE/index.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/GPSDRONE/server.js" />
         <option value="$PROJECT_DIR$/Node/node_modules/dronestream/dist/nodecopter-client.js" />
-        <option value="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/video.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/plugins/video-png/public/js/index.js" />
         <option value="$PROJECT_DIR$/Node/testDrone/ardrone-webflight/config.js" />
@@ -168,9 +461,10 @@
         <option value="$PROJECT_DIR$/Node/deliveryDrone/indexpng.html" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" />
-        <option value="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" />
         <option value="$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js" />
+        <option value="$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html" />
       </list>
     </option>
   </component>
@@ -184,8 +478,8 @@
     <handled-path value="$PROJECT_DIR$/Node/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="822" />
-    <option name="width" value="1104" />
+    <option name="x" value="902" />
+    <option name="width" value="1024" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -403,18 +697,17 @@
       <workItem from="1490609395360" duration="1905000" />
       <workItem from="1491289045954" duration="76000" />
       <workItem from="1491289168197" duration="1404000" />
-      <workItem from="1491290671665" duration="6292000" />
+      <workItem from="1491290671665" duration="10982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90543000" />
+    <option name="totallyTimeSpent" value="95233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="822" y="0" width="1104" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="902" y="0" width="1024" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18855534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20385395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,7 +831,6 @@
     <entry file="file://$PROJECT_DIR$/Node/testDrone/ardrone-webflight/node_modules/qs/test/browser/jquery.js" />
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverPNG.js" />
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/OwnUtils/stationaryFlight.js" />
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html" />
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/PID.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -564,26 +856,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html">
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="71" />
+        <state relative-caret-position="578">
+          <caret line="144" column="9" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="144" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="62" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/serverTracking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/indexPNG.html">
+    <entry file="file://$PROJECT_DIR$/Node/deliveryDrone/public/indexForTrackingTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="128" column="58" lean-forward="false" selection-start-line="128" selection-start-column="58" selection-end-line="128" selection-end-column="58" />
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
