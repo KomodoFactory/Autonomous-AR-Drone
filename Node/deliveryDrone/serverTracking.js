@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
     //put in the real wesbsite
-    res.sendfile(__dirname + '/public/indexForTrackingTest.html');
+    res.sendfile(__dirname + '/indexPNG.html');
 });
 
 server.listen(8080);
@@ -40,6 +40,12 @@ io.sockets.on('connection', function (socket) {
         console.log('reset', data)
         client.disableEmergency()
     })
+    socket.on('tracked', function (data) {
+        trackedData = data;
+    })
+    socket.on('tracking', function (data) {
+        handleTrack = true;
+    })
 
     setInterval(function () {
         io.sockets.emit('navData', {
@@ -52,6 +58,8 @@ var arDrone = require('ar-drone');
 var client = arDrone.createClient();
 var fs = require('fs');
 var number = 0;
+var trackedData;
+var handleTrack = false;
 
 var pngStream = client.getPngStream();
 
@@ -61,15 +69,33 @@ client.config('general:navdata_demo', 'FALSE');
 var battery = 0;
 
 var handleNavData = function (data) {
-    if (data.demo == null || data.gps == null){
-		return;
-	}
-    battery = data.demo.batteryPercentage
+    if (data.demo == null || trackedData == null || !handleTrack) {
+        if (data.demo != null) {
+            battery = data.demo.batteryPercentage
+        }
+        return;
+    }
+    console.log('working');
+
+    offsetX = calculateXoffset();
+    offsetY = calculateYoffset();
+    if (offsetX < 0.2 && offsetX > -0.2 && offsetY < 0.2 && offsetY > -0.2) {
+        client.down(0.2);
+    } else {
+        client.right(offsetX);
+        client.back(offsetY);
+    }
+
+    if (data.demo.altitude <= 10) {
+        client.stop()
+        client.land()
+        return;
+    }
 }
 
-var handlePNGData = function(pngBuffer){
-    fs.writeFile('public/frame/frame' + number + '.png', pngBuffer, function(err){
-        if(err){
+var handlePNGData = function (pngBuffer) {
+    fs.writeFile('public/frame/frame' + number + '.png', pngBuffer, function (err) {
+        if (err) {
             console.log('Error saving PNG: ' + err);
         }
     })
@@ -77,8 +103,30 @@ var handlePNGData = function(pngBuffer){
     number++;
 }
 
+function calculateXoffset() {
+    dataMiddlePos = trackedData.x + (trackedData.width / 2);
+    dataRelativPos = (dataMiddlePos - 320) / 320;
+    return within(dataRelativPos, -0.2, 0.2);
+}
+function calculateYoffset() {
+    dataMiddlePos = trackedData.y + (trackedData.height / 2);
+    dataRelativPos = (dataMiddlePos - 180) / 180;
+    return within(dataRelativPos, -0.2, 0.2);
+}
+
+function within(x, min, max) {
+    if (x < min) {
+        return min;
+    } else if (x > max) {
+        return max;
+    } else {
+        return x;
+    }
+}
+
 client.on('navdata', handleNavData);
 
 pngStream
     .on('error', console.log)
     .on('data', handlePNGData);
+
