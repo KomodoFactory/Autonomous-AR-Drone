@@ -148,10 +148,17 @@
         })
     })
 
+    //may have to be changed each time!!!
     tracking.ColorTracker.registerColor('FastMagenta', function (r, g, b) {
         if (r < 170 && r > 145 && g < 120 && g > 70 && b < 165 && b > 110) {
             return true;
         } else if (r < 75 && r > 100 && g < 0 && g > 25 && b < 75 && b > 50) {
+            return true;
+        } else if (r < 256 && r > 240 && g < 220 && g > 170 && b < 256 && b > 240){
+            return true;
+        } else if (r < 256 && r > 240 && g < 130 && g > 110 && b < 230 && b > 200){
+            return true;
+        }else if (r < 256 && r > 240 && g < 130 && g > 110 && b < 230 && b > 200){
             return true;
         }
         return false;
@@ -185,7 +192,7 @@
         pngStream.appendChild(rect);
 
         rect.classList.add('rect');
-        rect.style.border = '2px solid';
+        rect.style.border = '2px solid blue';
         rect.style.width = w + 'px';
         rect.style.height = h + 'px';
         rect.style.left = (img.offsetLeft + x) + 'px';

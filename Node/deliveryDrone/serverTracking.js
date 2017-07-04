@@ -67,26 +67,55 @@ client.config('video:video_channel', 3);
 client.config('general:navdata_demo', 'FALSE');
 
 var battery = 0;
+var countofmovign = 0;
 
 var handleNavData = function (data) {
-    if (data.demo == null || trackedData == null || !handleTrack) {
+    if (data.demo == null || !handleTrack) {
         if (data.demo != null) {
-            battery = data.demo.batteryPercentage
+            console.log("hallo, gar nix da?");
+
+            battery = data.demo.batteryPercentage;
         }
         return;
     }
-    console.log('working');
+    if(trackedData == null){
+        battery = data.demo.batteryPercentage;
+        console.log("hallo, nix da?");
+
+        client.up(0.2);
+
+        return;
+    }
 
     offsetX = calculateXoffset();
     offsetY = calculateYoffset();
+    battery = data.demo.batteryPercentage
+
+    console.log(offsetX + " " + offsetY);
+
     if (offsetX < 0.2 && offsetX > -0.2 && offsetY < 0.2 && offsetY > -0.2) {
-        client.down(0.2);
+        client.down(0.05);
     } else {
-        client.right(offsetX);
-        client.back(offsetY);
+        if (countofmovign <= 0) {
+            if (offsetX == -0.2) {
+                client.left(0.03);
+            } else if (offsetX == 0.2){
+                client.right(0.001);
+            }
+            if (offsetY == -0.2) {
+                client.front(0.04);
+            } else if (offsetY == 0.2){
+                client.back(0.01);
+            }
+            countofmovign = 2;
+        } else {
+            client.stop();
+        }
+        countofmovign -= 1;
     }
 
-    if (data.demo.altitude <= 10) {
+    if (data.demo.altitude <= 0.5 && data.demo.altitude > 0 && (trackedData != null)) {
+        console.log("stop");
         client.stop()
         client.land()
         return;
@@ -104,14 +133,18 @@ var handlePNGData = function (pngBuffer) {
 }
 
 function calculateXoffset() {
-    dataMiddlePos = trackedData.x + (trackedData.width / 2);
-    dataRelativPos = (dataMiddlePos - 320) / 320;
-    return within(dataRelativPos, -0.2, 0.2);
+    if (trackedData.x != null) {
+        dataMiddlePos = trackedData.x + (trackedData.width / 2);
+        dataRelativPos = (dataMiddlePos - 320) / 320;
+        return within(dataRelativPos, -0.2, 0.2);
+    }
 }
 function calculateYoffset() {
-    dataMiddlePos = trackedData.y + (trackedData.height / 2);
-    dataRelativPos = (dataMiddlePos - 180) / 180;
-    return within(dataRelativPos, -0.2, 0.2);
+    if (trackedData.y != null) {
+        dataMiddlePos = trackedData.y + (trackedData.height / 2);
+        dataRelativPos = (dataMiddlePos - 180) / 180;
+        return within(dataRelativPos, -0.2, 0.2);
+    }
 }
 
 function within(x, min, max) {
