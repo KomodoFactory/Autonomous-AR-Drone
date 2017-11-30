@@ -2,6 +2,10 @@
 
 This Project was a proof of concept for a autonomous Drone using the AR Drone.
 
+##Prerequisites
+* Node.js is installed
+* The AR Drone Framework is installed
+
 ## Features
 
 * Video Stream
